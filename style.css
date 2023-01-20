@@ -1,0 +1,31 @@
+:root{
+    --white: #ffffff;
+    --lightblue: #89cff0;
+    --rootsize: 20px;
+    --maxwidth: 1200px;
+}
+
+body{
+    font-family: Arial, Helvetica, "sans-serif";
+    font-size: var(--rootsize);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.container{
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    background-color: var(--white);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
